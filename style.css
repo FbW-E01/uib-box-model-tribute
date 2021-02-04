@@ -1,0 +1,29 @@
+body {
+    
+    text-align: center;
+}
+
+img {
+    box-sizing: border-box;
+    border: 1px black solid;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+div {
+text-align: justify;
+width: 80%;
+background: rgb(231, 231, 231);
+padding: 20px;
+margin: auto;
+border-radius: 20px;
+
+}
+
+strong {
+
+font-size: 24px;
+}
+p {
+    font-size: 20px;
+}
