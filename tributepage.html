@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        
+        body {
+            font-family: 'Merriweather', serif;
+            margin: auto;
+        }
+
+        .headlines {
+            text-align: center;  
+            font-variant: small-caps; 
+        }
+
+        .imagejeff {
+            border: 2px solid darkolivegreen;
+            border-radius: 80%;
+        }
+
+        .grey {
+            box-sizing: content-box;
+            background-color: lightslategrey;
+            text-align: center;
+        }    
+
+        .caption {
+            font-weight: bolder;
+            font-style: italic;
+            font-style: oblique;
+            color: darkgrey;
+        }
+
+        .caption:hover {
+            color: dimgrey;
+        }
+
+        .milestones {
+            box-sizing: border-box;
+            width: 400px;
+            border: thin;
+            list-style-type: none; 
+            margin: 0 auto; 
+        }
+
+        .quote {
+            width: 400px;
+            margin: 0 auto;
+            -webkit-box-shadow: 9px 8px 18px 0px #000000; 
+            box-shadow: 9px 8px 18px 0px #000000;
+            background-color: lightcyan;
+            padding: 10px 10px 10px 10px;
+        }
+
+        .quote:hover {
+            color: darkturquoise;
+        }
+
+        footer {
+            background-color: yellowgreen;
+            text-align: center;
+            color: teal; 
+            padding: 0.5rem 0;
+            margin: 5px 0;
+        }
+
+        #p2 {
+            text-align: end;
+        }
+
+        a {
+            color: teal;
+        }
+
+        a:hover {
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="headlines">
+        <h1>Jeff Bezos</h1>
+        <h2>From garage to rocket science</h2>
+        </div>
+        <div class="grey">
+            <a href="https://www.instagram.com/jeffbezos" target="_blank"><img src="./images/Jeff-Bezos.jpeg" alt="Jeff Bezos" class="imagejeff"></a>
+            <p class="caption">No 2 billionare of the World</p>
+        </div>
+        <div>
+            <ul class="milestones">Milestones
+                <li>1994 - founding <a href="https://www.amazon.de/" target="_blank">Amazon</a></li>
+                <li>2006 - founding of <a href="https://aws.amazon.com/de/">Amazon Web Services</a></li>
+                <li>2014 - take-over of <a href="https://www.twitch.tv/">Twitch</a></li>
+                <li>2021 - Starting own cargo airline</li>
+                <li>Feb 2021 - Stepdown as Amazon CEO</li>
+            </ul>
+        </div>
+        <div class="quote">
+            <p id="p1">Awarded as Most Worst Chief of the World in 2014</p>
+            <p id="p2"><em><sub>Insiders about Amazon</sub></em></p>
+        </div>
+    </main>
+    <footer>
+        Learn more about Jeff on <a href="https://de.wikipedia.org/wiki/Jeff_Bezos" target="-blank">Wikipedia</a>
+    </footer>
+</body>
+</html>
