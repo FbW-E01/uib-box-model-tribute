@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+header,
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "MuseoModerno", cursive;
+  font-size: 2.25rem;
+  padding: 3%;
+  text-align: center;
+  text-shadow: 0 0 12px #639634, 0 0 36px #fa744b;
+}
+
+.subtitle {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5%;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  text-transform: capitalize;
+  background-color: rgb(99, 150, 52, 0.6);
+}
+
+main {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
+
+.img-container {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+img {
+  width: 100%;
+  border-radius: 75px;
+  border-left: 15px solid #fa744b
+}
+
+.quote::before {
+  content: ">> ";
+}
+
+.quote::after {
+  content: " <<";
+}
+
+.quote {
+  font-weight: 600;
+  margin: 2%;
+}
+
+ul {
+  list-style-type: none;
+  width: 75%;
+  margin: 2.5% auto 3%;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 1%;
+}
+
+.year {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-right: 2%;
+}
+
+figure {
+  width: 70%;
+  background-color: rgb(99, 150, 52, 0.6);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+blockquote {
+  padding: 3% 0 2%;
+  line-height: 1.5rem;
+}
+
+figure p {
+  width: 85%;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-style: italic;
+  padding-bottom: 2%;
+}
+
+footer {
+  background-color: #fa744b;
+  padding: 2%;
+  margin: 0.5%;
+}
